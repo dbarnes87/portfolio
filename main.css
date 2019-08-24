@@ -1,0 +1,38 @@
+body {
+    background-color: rgb(194, 205, 207);
+    margin: 10px;
+}
+
+.coverphoto {
+    height: 300px;
+    width: 300px;
+    border-radius: 30%;
+}
+
+#name-head {
+    font-size: 4rem;
+}
+
+#position-head {
+    font-size: 2rem;
+}
+
+#location-head {
+    font-size: 2rem;
+}
+
+#projects-title {
+    font-size: 2rem;
+}
+
+#ahabot-title {
+    font-size: 1.5rem;
+}
+
+#itunes-title {
+    font-size: 1.5rem;
+}
+
+#questionbox-title {
+    font-size: 1.5rem;
+}
