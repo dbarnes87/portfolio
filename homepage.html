@@ -9,16 +9,20 @@
     <script src="https://use.fontawesome.com/703ef63950.js" defer></script>
 
     <title>David Barnes</title>
+
 </head>
+
 <body>
-        <nav class="pa3 pa4-ns">
-                <a class="link dim black b f6 f5-ns dib mr3" href="#" title="Home">David Barnes</a>
-                <a class="link dim gray f6 f5-ns dib mr3" href="#About" title="About">About</a>
-                <a class="link dim gray f6 f5-ns dib mr3" href="#Projects" title="Projects">Projects</a>
-                <a class="link dim gray f6 f5-ns dib" href="#Contact" title="Contact">Social</a>
+        <nav id='nav-bar' class="pa3 pa4-ns">
+                <a class="link dim mid-gray f6 f5-ns dib mr3" href="#About" title="About">About</a>
+                <a class="link dim mid-gray f6 f5-ns dib mr3" href="#Projects" title="Projects">Projects</a>
+                <a class="link dim mid-gray f6 f5-ns dib mr3" href="#Contact" title="Contact">Resum&#233</a>
+                <a class="link dim mid-gray f6 f5-ns dib mr3" href="#Contact" title="Contact">Social</a>
         </nav>
 
-        <header class="tc pv4 pv5-ns">
+        <hr>
+
+        <header id='Home' class="tc pv4 pv5-ns">
                 <h1 class="f5 f4-ns fw6 black-70 ttu" id="name-head">David Barnes</h1>
                 <img src="profilepic.jpg" class="coverphoto" alt='Photo of David Barnes.'>
                 <h2 class="f6 black-70 fw2 ttu tracked" id="position-head">Software Developer</h2>
@@ -27,17 +31,17 @@
         </header>
 
         <div class="pv4 pv5-ns" id="About">
-                <h2 class="f3 black-70 fw2 ttu tracked" id="about-head">About Me</h2>
-                <p class="f6 black-80 fw2 ttu tracked">I'm a full-stack software engineer and a recent graduate of Momentum Learning's 12-week immersive web development bootcamp.  I have experience working on both the client-side and server-side of web programming with a particular emphasis on Python and Django applications.  I also recently worked on a team project that relied heavily on JavaScipt and Node.js.  Please keep scrolling to find out more about this project and the other applications I worked on this year.</p>
+                <h2 class="f3 black-70 fw2  tracked" id="about-head">About Me</h2>
+                <p class="f5 black-80 fw2 tracked">A full-stack software engineer and a recent graduate of Momentum Learning's 12-week web development bootcamp.  I have experience working on both the client-side and server-side of web programming with a particular emphasis on Python and Django applications.  I also recently worked on a team project that relied heavily on JavaScipt and Node.js.  Please keep scrolling to find out more about this project and the other applications I worked on this year.  Click on a project to be redirected to it's GitHub repository.  You can also follow the links at the bottom of the page to check out my full GitHub and LinkedIn profiles.</p>
         </div>
 
-        <section class="mw7 center avenir">
-          <h2 id="Projects" class="baskerville fw1 ph3 ph0-l">Projects</h2>
+        <section id="projects-section" class="mw7 center avenir">
+          <h2 id="Projects" class="tc baskerville fw1 ph3 ph0-l">Projects</h2>
           <article class="bt bb b--black-10">
             <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://github.com/dbarnes87/AHAbot">
               <div class="flex flex-column flex-row-ns">
                 <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                  <img src="AHAbotPhoto.png" class="db" alt="Picture of AHA bot homepage.">
+                  <img src="AHAbotPhoto.png" class="project-photo" alt="Picture of AHA bot homepage.">
                 </div>
                 <div class="w-100 w-60-ns pl3-ns">
                   <h1 class="f3 fw1 baskerville mt0 lh-title">AHAbot</h1>
@@ -54,7 +58,7 @@
             <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://github.com/dbarnes87/QuestionBox">
               <div class="flex flex-column flex-row-ns">
                 <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                  <img src="QuestionBoxPhoto.png" class="db" alt="Picture of Question Box homepage.">
+                  <img src="QuestionBoxPhoto.png" class="project-photo" alt="Picture of Question Box homepage.">
                 </div>
                 <div class="w-100 w-60-ns pl3-ns">
                   <h1 class="f3 fw1 baskerville mt0 lh-title">Question Box</h1>
@@ -73,7 +77,7 @@
             <a class="db pv4 ph3 ph0-l no-underline black dim" href="https://github.com/dbarnes87/iTunesAPIProject">
               <div class="flex flex-column flex-row-ns">
                 <div class="pr3-ns mb4 mb0-ns w-100 w-40-ns">
-                  <img src="iTunesSearchAppPhoto.png" class="db" alt="Picture of iTunes API project homepage.">
+                  <img src="iTunesSearchAppPhoto.png" class="project-photo" alt="Picture of iTunes API project homepage.">
                 </div>
                 <div class="w-100 w-60-ns pl3-ns">
                   <h1 class="f3 fw1 baskerville mt0 lh-title">iTunes Music Search Application</h1>
@@ -93,9 +97,9 @@
               
         <div id="Contact" class='footer-links'>
             <footer id='social-links' class="pv4 ph3 ph5-ns tc">
-                <a href="https://github.com/dbarnes87" id='github-link'><i class="fa fa-github fa-3x"></i></a>
-                <a href="mailto:david.barnes115@gmail.com" id='email-link'><i class="fa fa-envelope fa-3x"></i></a>
-                <a href="https://www.linkedin.com/in/david-e-barnes/" id='linkedin-link'><i class="fa fa-linkedin fa-3x"></i></a>
+                <a class="link dim gray f6 f5-ns dib mr3" href="https://github.com/dbarnes87" id='github-link'><i class="fa fa-github fa-3x"></i></a>
+                <a class="link dim gray f6 f5-ns dib mr3" href="mailto:david.barnes115@gmail.com" id='email-link'><i class="fa fa-envelope fa-3x"></i></a>
+                <a class="link dim gray f6 f5-ns dib mr3" href="https://www.linkedin.com/in/david-e-barnes/" id='linkedin-link'><i class="fa fa-linkedin fa-3x"></i></a>
             </footer>
         </div> 
 </body>
