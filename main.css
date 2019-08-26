@@ -3,7 +3,9 @@ html {
 }
 
 body {
-    background-color: rgb(194, 205, 207);
+    /* background-color: rgb(194, 205, 207); */
+    background: rgb(67,169,237);
+    background: linear-gradient(245deg, rgba(67,169,237,1) 0%, rgba(138,219,249,0) 100%);
     margin: 10px;
 }
 
@@ -16,14 +18,17 @@ body {
 
 #name-head {
     font-size: 4rem;
+    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
 }
 
 #position-head {
     font-size: 2rem;
+    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
 }
 
 #location-head {
     font-size: 2rem;
+    text-shadow: 3px 3px 2px rgba(150, 150, 150, 1);
 }
 
 #self-blurb {
